@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0b101b">
+    <meta name="description" content="Abhishek Gupta, Senior Software Engineer at Microsoft (Power BI Paginated Reports). 10 years building distributed systems, search, payments, and AI-powered developer tools.">
+    <title>Abhishek Gupta — Senior Software Engineer, Microsoft</title>
+    <link rel="canonical" href="https://abhishekg004.github.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Abhishek Gupta — Senior Software Engineer, Microsoft">
+    <meta property="og:description" content="Distributed systems, search, payments, and AI-powered developer tools.">
+    <meta property="og:url" content="https://abhishekg004.github.io/">
+    <meta property="og:image" content="https://abhishekg004.github.io/images/abhishek.jpg">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script>document.documentElement.classList.add('js');</script>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <a class="brand" href="#top" aria-label="Abhishek Gupta home"><span class="brand-symbol" aria-hidden="true">a<span>.</span></span><span>Abhishek Gupta</span></a>
+        <nav aria-label="Main navigation">
+            <a href="#work">Work</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#about">About</a>
+        </nav>
+        <a class="header-contact" href="mailto:abhishekiit2012004@gmail.com">Get in touch <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="main">
+        <section class="intro" id="top">
+            <div class="intro-copy">
+                <p class="eyebrow">Sr Software Engineer · Microsoft</p>
+                <h1>Backend &amp; AI-tools<br>software engineer.<span>Currently building Power BI Paginated Reports.</span></h1>
+                <p>Ten years shipping distributed systems at scale — search, payments, fintech, ad-tech and analytics — and now building AI agents that make engineering teams faster.</p>
+                <div class="action-row">
+                    <a class="button" href="#work">Explore the work <span aria-hidden="true">↓</span></a>
+                    <a class="quiet-link" href="https://www.github.com/ABHISHEKG004">GitHub <span aria-hidden="true">↗</span></a>
+                </div>
+            </div>
+            <img class="hero-portrait" src="images/abhishek.jpg" alt="Abhishek Gupta" width="250" height="300" fetchpriority="high">
+        </section>
+
+        <section class="stats" aria-label="Highlights">
+            <div><strong>10+</strong><span>years in industry</span></div>
+            <div><strong>2h → 15m</strong><span>incident investigation with DRI Copilot</span></div>
+            <div><strong>~60%</strong><span>fewer customer incidents per month</span></div>
+            <div><strong>TBs</strong><span>migrated with zero downtime</span></div>
+        </section>
+
+        <section id="work" class="selected-work" aria-labelledby="work-heading">
+            <div class="section-heading"><h2 id="work-heading">Selected work</h2><span>Explore a project</span></div>
+            <div class="project-picker" role="tablist" aria-label="Choose a featured project">
+                <a class="project-choice selected" href="#dri-copilot" data-project="dri-copilot"><span class="project-icon icon-a" aria-hidden="true">d</span><span>DRI Copilot<small>AI on-call agent</small></span><span class="choice-arrow" aria-hidden="true">↗</span></a>
+                <a class="project-choice" href="#azure-maps" data-project="azure-maps"><span class="project-icon icon-b" aria-hidden="true">m</span><span>Azure Maps migration<small>Legacy → modern, at scale</small></span><span class="choice-arrow" aria-hidden="true">↗</span></a>
+                <a class="project-choice" href="#es-upgrade" data-project="es-upgrade"><span class="project-icon icon-c" aria-hidden="true">e</span><span>Elasticsearch 8x<small>Zero-downtime upgrade</small></span><span class="choice-arrow" aria-hidden="true">↗</span></a>
+            </div>
+
+            <article id="dri-copilot" class="featured-project">
+                <div class="feature-copy">
+                    <span class="project-category">AI agents / Developer productivity</span>
+                    <h3>On-call, minus<br>the manual toil.</h3>
+                    <ul class="stack-chips" aria-label="Technology stack"><li>AI agents</li><li>MCP servers</li><li>Reusable skills</li><li>Kusto/KQL</li><li>Azure</li></ul>
+                    <p>An AI-agent-powered tool now adopted by the team for on-call operations. It leverages reusable skills and MCP servers to streamline investigations, generate reports from templates, and produce daily summaries and shift-handover reports with zero manual effort.</p>
+                    <p>Part of a broader toolkit: reusable AI workflows for bug fixing, PR reviews and KT docs, a <strong>PR Train Tracker</strong> for multi-ring rollouts, and <strong>Report Alchemy</strong>, a desktop tool for cross-environment debugging.</p>
+                </div>
+                <figure class="metric-card">
+                    <span class="metric-label">Incident investigation time</span>
+                    <div class="metric-compare"><div><strong>2 hrs</strong><small>before</small></div><span aria-hidden="true">→</span><div><strong class="accent">10–15 min</strong><small>with DRI Copilot</small></div></div>
+                    <div class="console">
+                        <p><span>$</span> dri investigate --incident 4821</p>
+                        <p class="dim">› pulling telemetry via MCP · running KQL skills…</p>
+                        <p class="dim">› correlating deployments across rings…</p>
+                        <p class="ok">✓ root cause summary + report generated</p>
+                        <p class="ok">✓ shift handover drafted</p>
+                    </div>
+                </figure>
+            </article>
+
+            <article id="azure-maps" class="featured-project">
+                <div class="feature-copy">
+                    <span class="project-category">Migration / Power BI Paginated Reports</span>
+                    <h3>Bing Maps to Azure Maps,<br>across 20 years of code.</h3>
+                    <ul class="stack-chips" aria-label="Technology stack"><li>C#/.NET</li><li>Azure Maps</li><li>Feature switches</li><li>Telemetry</li></ul>
+                    <p>Led the migration for Paginated Reports across PBIRB and Power BI Service, covering rendering and authoring. Delivered backend changes across multiple services in a 15–20 year old shared legacy codebase, with cross-region support, fallbacks, telemetry and bug bashes — rolled out through feature-switch gates across deployment rings.</p>
+                </div>
+                <figure class="metric-card">
+                    <span class="metric-label">Map report rendering time</span>
+                    <div class="metric-big"><strong class="accent">−15%</strong><small>faster rendering for reports containing maps</small></div>
+                    <ul class="mini-list"><li>Staged multi-ring rollout</li><li>Cross-region support &amp; fallback</li><li>Drove Azure Maps bug fixes cross-team</li></ul>
+                </figure>
+            </article>
+
+            <article id="es-upgrade" class="featured-project">
+                <div class="feature-copy">
+                    <span class="project-category">Search / Distributed systems · Adobe</span>
+                    <h3>Elasticsearch 2x → 8x<br>without a second of downtime.</h3>
+                    <ul class="stack-chips" aria-label="Technology stack"><li>Java</li><li>Elasticsearch</li><li>Spark</li><li>AWS S3</li></ul>
+                    <p>Led the highly critical upgrade of the entire indexing and search workflows and clusters, spanning multiple geographies. Built a two-step Spark migration pipeline (ES 2x → S3 → ES 8x) to move terabytes of data safely.</p>
+                </div>
+                <figure class="metric-card">
+                    <span class="metric-label">Migration pipeline</span>
+                    <div class="pipeline"><span>ES 2x</span><i aria-hidden="true">→</i><span>Spark</span><i aria-hidden="true">→</i><span>S3</span><i aria-hidden="true">→</i><span class="accent-chip">ES 8x</span></div>
+                    <ul class="mini-list"><li>Multi-geo clusters</li><li>TBs of data migrated</li><li>Zero downtime</li></ul>
+                </figure>
+            </article>
+        </section>
+
+        <section class="earlier-work" aria-labelledby="more-heading">
+            <div class="section-heading"><h2 id="more-heading">More from the archive</h2><span>Platforms, payments &amp; experiments</span></div>
+            <div class="project-list">
+                <article><div><h3>Report Copilot</h3><ul class="stack-chips"><li>Azure OpenAI</li><li>C#</li></ul></div><p>Microsoft Hackathon prototype that summarizes Paginated Reports and enables interactive chat over report data, integrated into the existing backend.</p></article>
+                <article><div><h3>PQO connection discovery</h3><ul class="stack-chips"><li>Power BI</li><li>Telemetry</li></ul></div><p>Drove end-to-end — requirements, specs, UI mockups to implementation — without a dedicated PM. Improved PQO data-source adoption by 4–5%.</p></article>
+                <article><div><h3>Generic indexing framework</h3><ul class="stack-chips"><li>Java</li><li>Elasticsearch</li></ul></div><p>Config-based framework using transformers, processors and annotations that cut new event-flow onboarding from 2–3 days to a few hours.</p></article>
+                <article class="collapsed-project"><details><summary><h3>Elasticsearch deletion service</h3></summary><div class="archive-entry"><ul class="stack-chips"><li>Java</li><li>Scheduler</li></ul><p>Single-click, scheduler-based document deleter. Reduced ES load for live events by ~5% and saved ~4% storage across regions.</p></div></details></article>
+                <article class="collapsed-project"><details><summary><h3>Nudging framework</h3></summary><div class="archive-entry"><ul class="stack-chips"><li>Java</li><li>Microservices</li></ul><p>At-least-once notification framework (PNs, SMS) for the Flipkart Axis Bank credit-card journey, with idempotency and versioning; extended for NPS feedback.</p></div></details></article>
+                <article class="collapsed-project"><details><summary><h3>Dynamic payment routing</h3></summary><div class="archive-entry"><ul class="stack-chips"><li>Java</li><li>Payments</li></ul><p>Generic switching algorithm across PayU, Razorpay and Tech Process to maximize success rate and reduce transaction latency.</p></div></details></article>
+                <article class="collapsed-project"><details><summary><h3>Automated video ads testing engine</h3></summary><div class="archive-entry"><ul class="stack-chips"><li>Automation</li><li>Cross-browser</li></ul><p>Automated 92% of a 25,000+ case manual test suite across browsers and operating systems.</p></div></details></article>
+            </div>
+        </section>
+
+        <section id="experience" class="experience" aria-labelledby="experience-heading">
+            <div class="section-heading"><h2 id="experience-heading">Experience</h2><span>Search / Payments / AI tools</span></div>
+
+            <div class="experience-row"><span>Nov 2023–Present</span><div><h3>Microsoft</h3><p>Sr Software Engineer · Power BI Paginated Reports · Bangalore</p>
+                <ul class="impact-list">
+                    <li>Led <strong>Bing Maps → Azure Maps</strong> migration across PBIRB and Power BI Service; reduced map report rendering time by <strong>15%</strong>.</li>
+                    <li>Drove E2E development of <strong>PQO connection discovery</strong>; improved adoption by <strong>4–5%</strong>, verified via telemetry.</li>
+                    <li>Strengthened security &amp; compliance: OBO token validation for S2S flows, security audit logging, and organized internal security reviews (threat modeling, PII-safe telemetry, alerting).</li>
+                    <li>Built AI developer tools — <strong>DRI Copilot</strong>, reusable AI skills, PR Train Tracker, Report Alchemy.</li>
+                    <li>Drove engineering excellence, cutting customer-reported incidents from <strong>8–10 to ~3–4 per month</strong>.</li>
+                </ul></div></div>
+
+            <div class="experience-row"><span>Jul 2021–Oct 2023</span><div><h3>Adobe</h3><p>Computer Scientist · Search Team · Noida</p>
+                <ul class="impact-list">
+                    <li>Led the zero-downtime, multi-geo <strong>Elasticsearch 2x → 8x</strong> upgrade and Spark-based TB-scale data migration.</li>
+                    <li>Built a deletion service (~5% less ES load, ~4% storage saved), the <strong>Recents view</strong>, and a config-based indexing framework.</li>
+                </ul></div></div>
+
+            <div class="experience-row"><span>Nov 2019–Jul 2021</span><div><h3>Flipkart</h3><p>Software Engineer 2 · Fintech Payments · Bangalore</p>
+                <ul class="impact-list">
+                    <li>Flipkart Axis Bank co-branded credit card: nudging/NPS framework, the <strong>Card Console</strong> (bill pay, digital card, cashback), and a revamped split-form application flow to boost conversion.</li>
+                </ul></div></div>
+
+            <div class="experience-row"><span>Jun 2018–Nov 2019</span><div><h3>Rivigo</h3><p>Software Engineer 2 · Payments · Bangalore</p>
+                <ul class="impact-list">
+                    <li>Built a <strong>unified payment gateway</strong>, a dynamic routing algorithm, and a lending microservice for supplier working capital.</li>
+                </ul></div></div>
+
+            <div class="experience-row"><span>Jul 2016–Jun 2018</span><div><h3>Media.net</h3><p>Platform Engineer · Video Ads · Bangalore</p>
+                <ul class="impact-list">
+                    <li>Built an RBAC admin console with SSO, a video-ads reporting system, and an automated testing engine covering <strong>92%</strong> of 25,000+ cases.</li>
+                </ul></div></div>
+        </section>
+
+        <section id="skills" class="skills" aria-labelledby="skills-heading">
+            <div class="section-heading"><h2 id="skills-heading">Skills</h2><span>Tools of the trade</span></div>
+            <div class="skill-grid">
+                <div><h3>Languages</h3><ul class="stack-chips"><li>Java</li><li>C#/.NET</li><li>C/C++</li><li>JavaScript</li><li>HTML</li></ul></div>
+                <div><h3>Platforms &amp; data</h3><ul class="stack-chips"><li>Azure</li><li>AWS</li><li>Elasticsearch</li><li>MySQL</li><li>Spark</li><li>Apache Storm</li><li>Kusto/KQL</li></ul></div>
+                <div><h3>AI</h3><ul class="stack-chips"><li>Azure OpenAI</li><li>AI agents</li><li>MCP</li><li>Prompt workflows</li></ul></div>
+                <div><h3>Engineering</h3><ul class="stack-chips"><li>Distributed systems</li><li>Microservices</li><li>REST APIs</li><li>Security &amp; threat modeling</li><li>Git</li><li>Jenkins</li></ul></div>
+            </div>
+        </section>
+
+        <section id="about" class="about" aria-labelledby="about-heading">
+            <div class="section-heading"><h2 id="about-heading">About</h2><span>Education &amp; contact</span></div>
+            <div class="about-grid">
+                <div>
+                    <p>I'm Abhishek — a backend engineer who enjoys untangling legacy systems, making them reliable, and then automating away the toil around them. I care about telemetry-driven decisions, secure-by-default design, and owning problems end to end.</p>
+                    <div class="action-row"><a class="button" href="mailto:abhishekiit2012004@gmail.com">Email me <span aria-hidden="true">↗</span></a><a class="quiet-link" href="https://www.github.com/ABHISHEKG004">GitHub <span aria-hidden="true">↗</span></a></div>
+                </div>
+                <ul class="edu-list">
+                    <li><span>2012–2016</span><strong>IIIT Allahabad</strong><small>B.Tech, Information Technology · CGPA 8.9</small></li>
+                    <li><span>2011–2012</span><strong>D.A.V. Public School, Faridabad</strong><small>Intermediate · 92%</small></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer"><span>© <span id="year">2026</span> Abhishek Gupta</span><a href="#top">Back to top ↑</a></footer>
+</body>
+</html>
